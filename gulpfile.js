@@ -31,12 +31,12 @@ const path = {
 			`!${src_folder}/html/**/_*.{html,php}`,
 		],
 		js: `${src_folder}/js/connect/**/*.js`,
-		libJs: ["node_modules/slick-carousel/slick/slick.js"], // Подключаем скрипты из библиотек
+		libJs: ["node_modules/swiper/swiper-bundle.min.js"], // Подключаем скрипты из библиотек
 		css: [
 			`${src_folder}/scss/connect/**/*.scss`,
 			`!${src_folder}/scss/connect/mixins.scss`,
 		],
-		libCss: ["node_modules/slick-carousel/slick/slick.css"], // Подключаем стили из библиотек
+		libCss: ["node_modules/swiper/swiper-bundle.min.css"], // Подключаем стили из библиотек
 		images: [
 			`${src_folder}/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
 			`!**/favicon.*`,
@@ -137,7 +137,7 @@ function libCss() {
 				cascade: true,
 			})
 		)
-		.pipe(dest(`${path.build.devCss}/library`))
+		.pipe(dest(`${path.build.css}/library`))
 		.pipe(browserSync.stream());
 }
 function styleCss() {
@@ -159,7 +159,7 @@ function appJs() {
 }
 function libJs() {
 	return src(path.src.libJs)
-		.pipe(dest(`${path.build.devJs}/library`))
+		.pipe(dest(`${path.build.js}/library`))
 		.pipe(browserSync.stream());
 }
 function devJs() {

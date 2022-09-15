@@ -7,7 +7,7 @@
 	"license": "GNU General Public License (GPL)",
 	"devDependencies": {
 		"browser-sync": "latest",
-		"del": "latest",
+		"del": "6.1.1",
 		"gulp": "latest",
 		"gulp-autoprefixer": "latest",
 		"gulp-clean-css": "latest",
@@ -33,6 +33,6 @@
 		"webp-converter": "2.2.3"
 	},
 	"dependencies": {
-		"slick-carousel": "^1.8.1"
+		"swiper": "^8.3.2"
 	}
 }

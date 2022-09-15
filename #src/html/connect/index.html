@@ -1,11 +1,360 @@
 <!DOCTYPE html>
 <html lang="ru">
-	@@include('_head.html',{ "title":"ITSHNIC" })
+	@@include('_head.html',{ "title":"Woodendot" })
 
 	<body>
 		<div class="wrapper">
 			@@include('_header.html',{})
-			<main class="page"></main>
+			<main class="main">
+				<div class="main__container _container">
+					<section class="main-discover">
+						<img src="img/slider01.png" alt="foto" class="main-discover__img" />
+						<h1 class="main-discover__title">
+							Furniture designed to live in harmony, creating distinctive and
+							timeless spaces
+						</h1>
+						<button class="main-discover__btn">Discover now</button>
+						<a href="#" class="main-discover__link"
+							>Do you know what is your decor style?</a
+						>
+					</section>
+					<dl class="main-advantages">
+						<a class="main-advantages__item" href="#">
+							<dt class="main-advantages__img">
+								<img src="img/icon/car.png" alt="car" />
+							</dt>
+							<dd class="main-advantages__text">Free Shipping</dd>
+						</a>
+						<a class="main-advantages__item" href="#">
+							<dt class="main-advantages__img">
+								<img src="img/icon/star.png" alt="car" />
+							</dt>
+							<dd class="main-advantages__text">Awarded Product Design</dd>
+						</a>
+						<a class="main-advantages__item" href="#">
+							<dt class="main-advantages__img">
+								<img src="img/icon/tree.png" alt="car" />
+							</dt>
+							<dd class="main-advantages__text">Ecofriendly Approach</dd>
+						</a>
+						<a class="main-advantages__item" href="#">
+							<dt class="main-advantages__img">
+								<img src="img/icon/map.png" alt="car" />
+							</dt>
+							<dd class="main-advantages__text">Crafted in Spain</dd>
+						</a>
+					</dl>
+					<section class="main-catalog">
+						<div class="main-catalog__swiper swiper-catalog">
+							<div class="swiper-catalog__wrapper swiper-wrapper">
+								<div
+									class="swiper-catalog__slide swiper-slide"
+									dataScroll-id="#pop01"
+								>
+									<img src="img/pop01.png" alt="foto" />
+								</div>
+								<div
+									class="swiper-catalog__slide swiper-slide"
+									dataScroll-id="#pop02"
+								>
+									<img src="img/pop02.png" alt="foto" />
+								</div>
+								<div
+									class="swiper-catalog__slide swiper-slide"
+									dataScroll-id="#pop03"
+								>
+									<img src="img/pop03.png" alt="foto" />
+								</div>
+								<div
+									class="swiper-catalog__slide swiper-slide"
+									dataScroll-id="#pop04"
+								>
+									<img src="img/pop04.png" alt="foto" />
+								</div>
+							</div>
+						</div>
+						<div class="main-catalog__list">
+							<div class="main-catalog__item item-catalog" id="pop01">
+								<div class="item-catalog__content">
+									<p class="item-catalog__favorite"></p>
+									<h2 class="item-catalog__title">Cloe</h2>
+									<h3 class="item-catalog__subTitle">Modular Storage System</h3>
+									<div class="item-catalog__price">
+										<span>From $</span><span>1.176</span>
+									</div>
+									<p class="item-catalog__text">
+										An expansive way to furnish your space exactly how you need
+										it and like it. Transform it in exactly what you need like a
+										bookshelf, tv stand or show rack, you pick.
+									</p>
+									<p class="item-catalog__ifo"></p>
+									<a href="#" class="item-catalog__link">Shop now</a>
+								</div>
+								<div class="item-catalog__img">
+									<img src="img/proj/proj01.png" alt="foto" />
+								</div>
+							</div>
+							<div class="main-catalog__item item-catalog" id="pop02">
+								<div class="item-catalog__content">
+									<p class="item-catalog__favorite"></p>
+									<h2 class="item-catalog__title">Pelican</h2>
+									<h3 class="item-catalog__subTitle">
+										Shelves with hidden hooks
+									</h3>
+									<div class="item-catalog__price">
+										<span>From $</span><span>89</span>
+									</div>
+									<p class="item-catalog__text">
+										Store or exhibit your favorite objects in the entrance hall,
+										modern hallways, living rooms and bedrooms with a decorative
+										and minimalist touch.
+									</p>
+									<p class="item-catalog__ifo">+ 3 sizes, + 5 color finishes</p>
+									<a href="#" class="item-catalog__link">Shop now</a>
+								</div>
+								<div class="item-catalog__img">
+									<img src="img/proj/proj02.png" alt="foto" />
+								</div>
+							</div>
+							<div class="main-catalog__item item-catalog" id="pop03">
+								<div class="item-catalog__content">
+									<p class="item-catalog__favorite">New Favorite!</p>
+									<h2 class="item-catalog__title">Alada</h2>
+									<h3 class="item-catalog__subTitle">Floating folding desk</h3>
+									<div class="item-catalog__price">
+										<span>From $</span><span>534</span>
+									</div>
+									<p class="item-catalog__text">
+										A timeless and discreet folding desk that seamlessly
+										transforms into a decorative shelf in seconds.
+									</p>
+									<p class="item-catalog__ifo">+ 4 color finishes</p>
+									<a href="#" class="item-catalog__link">Shop now</a>
+								</div>
+								<div class="item-catalog__img">
+									<img src="img/proj/proj03.png" alt="foto" />
+								</div>
+							</div>
+							<div class="main-catalog__item item-catalog" id="pop04">
+								<div class="item-catalog__content">
+									<p class="item-catalog__favorite"></p>
+									<h2 class="item-catalog__title">Alba Collection</h2>
+									<h3 class="item-catalog__subTitle">
+										Modular bedside table & shelf
+									</h3>
+									<div class="item-catalog__price">
+										<span>From $</span><span>272</span>
+									</div>
+									<p class="item-catalog__text">
+										A versatile and modular piece with a sculptural touch that
+										can be used as a wall shelf or as a bedside table with
+										concealed storage.
+									</p>
+									<p class="item-catalog__ifo">
+										+ 6 color finishes, infinite combinations
+									</p>
+									<a href="#" class="item-catalog__link">Shop now</a>
+								</div>
+								<div class="item-catalog__img">
+									<img src="img/proj/proj04.png" alt="foto" />
+								</div>
+							</div>
+							<div class="main-catalog__item item-catalog" id="pop05">
+								<div class="item-catalog__content">
+									<p class="item-catalog__favorite"></p>
+									<h2 class="item-catalog__title">Batea Collection</h2>
+									<h3 class="item-catalog__subTitle">
+										Tables with storage & tray tables
+									</h3>
+									<div class="item-catalog__price">
+										<span>From $</span><span>272</span>
+									</div>
+									<p class="item-catalog__text">
+										Composed of clean and rounded lines, the Batea Collection
+										includes unique tables with extra functionality like a
+										removable tray, and hidden storage.
+									</p>
+									<p class="item-catalog__ifo">+ 3 sizes, + 6 color finishes</p>
+									<a href="#" class="item-catalog__link">Shop now</a>
+								</div>
+								<div class="item-catalog__img">
+									<img src="img/proj/proj05.png" alt="foto" />
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="main-gallery">
+						<h3 class="main-gallery__title">Our pieces inside your home</h3>
+						<p class="main-gallery__text">
+							Get inspired by our products in real-life. Tag us and be featured!
+						</p>
+						<div class="main-gallery__swiper">
+							<div class="swiper-wrapper">
+								<div class="main-gallery__slide swiper-slide">
+									<a href="#" class="main-gallery__link">paula.rl</a>
+									<img src="img/gallery/gallery1.png" alt="gallery-foto" />
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<a href="#" class="main-gallery__link">linda.m.karlsen</a>
+									<img src="img/gallery/gallery2.png" alt="gallery-foto" />
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<a href="#" class="main-gallery__link">martagtarrio_</a>
+									<img src="img/gallery/gallery3.png" alt="gallery-foto" />
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<a href="#" class="main-gallery__link">paula.rl</a>
+									<img src="img/gallery/gallery1.png" alt="gallery-foto" />
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<a href="#" class="main-gallery__link">linda.m.karlsen</a>
+									<img src="img/gallery/gallery2.png" alt="gallery-foto" />
+								</div>
+								<div class="main-gallery__slide swiper-slide">
+									<a href="#" class="main-gallery__link">martagtarrio_</a>
+									<img src="img/gallery/gallery3.png" alt="gallery-foto" />
+								</div>
+							</div>
+							<div class="main-gallery__dotts"></div>
+						</div>
+					</section>
+					<section class="main-info">
+						<div class="main-info__feedback feedback">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide feedback__slide">
+									<p class="feedback__text">
+										"The team from Woodendot has displayed utmost
+										professionalism from order to deliver and customer support.
+										We placed an order to the UK and would definitely recommend
+										friends to order from Woodendot!"
+									</p>
+									<p class="feedback__author">R. Aoun, United Kingdom</p>
+								</div>
+								<div class="swiper-slide feedback__slide">
+									<p class="feedback__text">
+										"The team from Woodendot has displayed utmost
+										professionalism from order to deliver and customer support.
+										We placed an order to the UK and would definitely recommend
+										friends to order from Woodendot!"
+									</p>
+									<p class="feedback__author">R. Aoun, United Kingdom</p>
+								</div>
+								<div class="swiper-slide feedback__slide">
+									<p class="feedback__text">
+										"The team from Woodendot has displayed utmost
+										professionalism from order to deliver and customer support.
+										We placed an order to the UK and would definitely recommend
+										friends to order from Woodendot!"
+									</p>
+									<p class="feedback__author">R. Aoun, United Kingdom</p>
+								</div>
+								<div class="swiper-slide feedback__slide">
+									<p class="feedback__text">
+										"The team from Woodendot has displayed utmost
+										professionalism from order to deliver and customer support.
+										We placed an order to the UK and would definitely recommend
+										friends to order from Woodendot!"
+									</p>
+									<p class="feedback__author">R. Aoun, United Kingdom</p>
+								</div>
+								<div class="swiper-slide feedback__slide">
+									<p class="feedback__text">
+										"The team from Woodendot has displayed utmost
+										professionalism from order to deliver and customer support.
+										We placed an order to the UK and would definitely recommend
+										friends to order from Woodendot!"
+									</p>
+									<p class="feedback__author">R. Aoun, United Kingdom</p>
+								</div>
+							</div>
+							<div class="feedback__dottsBox">
+								<div class="feedback__dotts"></div>
+							</div>
+						</div>
+						<div class="main-info__card card-info">
+							<ul class="card-info__list">
+								<li class="card-info__item">
+									<img src="img/icon/Frame1.svg" alt="icon" />
+									<h2 class="card-info__title">DESIGN</h2>
+									<p class="card-info__text">
+										We create furniture pieces with personality, designed to
+										transform your space.
+									</p>
+									<a href="#" class="card-info__link">Learn More</a>
+								</li>
+								<li class="card-info__item">
+									<img src="img/icon/Frame2.svg" alt="icon" />
+									<h2 class="card-info__title">FOOTPRINT</h2>
+									<p class="card-info__text">
+										We are committed to look after what we love, nature.
+									</p>
+									<a href="#" class="card-info__link">Learn More</a>
+								</li>
+								<li class="card-info__item">
+									<img src="img/icon/Frame3.svg" alt="icon" />
+									<h2 class="card-info__title">MADE</h2>
+									<p class="card-info__text">
+										Our local design, and production in the village of Iscar,
+										Spain.s
+									</p>
+									<a href="#" class="card-info__link">Learn More</a>
+								</li>
+								<li class="card-info__item">
+									<img src="img/icon/Frame4.svg" alt="icon" />
+									<h2 class="card-info__title">WOOD</h2>
+									<p class="card-info__text">
+										Our characteristic and main material, and its unique and
+										timeless attributes.
+									</p>
+									<a href="#" class="card-info__link">Learn More</a>
+								</li>
+							</ul>
+						</div>
+						<div class="main-info__about about-info">
+							<h4 class="about-info__title">
+								Those who are talking about us...
+							</h4>
+							<div class="about-info__swiper">
+								<div class="swiper-wrapper">
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about1.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about2.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about3.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about4.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about5.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about6.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about7.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about8.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about9.jpg" alt="foto" />
+									</div>
+									<div class="about-info__img swiper-slide">
+										<img src="img/about/about10.jpg" alt="foto" />
+									</div>
+								</div>
+								<div class="about-info__dottsBox">
+									<div class="about-info__dotts"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
 			@@include('_footer.html',{})
 		</div>
 		@@include('_js.html',{})

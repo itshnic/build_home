@@ -1,0 +1,44 @@
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  display: block;
+}
+
+._icon-viber:before {
+  content: "\e900";
+}
+
+._icon-WhatsApp:before {
+  content: "\e901";
+}
+
+._icon-telegramm:before {
+  content: "\e902";
+}
+
+._icon-home:before {
+  content: "\e907";
+}
+
+._icon-home1:before {
+  content: "\e908";
+}
+
+._icon-cart:before {
+  content: "\e93a";
+}
+
+._icon-phone:before {
+  content: "\e942";
+}
